@@ -10,6 +10,6 @@ const covid19ImpactEstimator = (data) => {
       infectionsByRequestedTime: data.reportedCase * 50 * 1024
     }
   };
-}
+};
 
 export default covid19ImpactEstimator;
